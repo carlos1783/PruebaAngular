@@ -1,0 +1,109 @@
+body{
+    background: white;
+}
+h1{
+    background-color:white;
+}
+a{
+    align-items: right;
+    background-color:rgb(94, 132, 168);
+    text-align: right;
+    margin: none;
+    Color: white;
+    border-radius: .2em;
+    padding: 0.2em;
+    text-align: right;
+    
+}
+.cabecera{
+    text-align: right;
+    padding: 0.5em;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+ }
+ caption, td, th {
+    padding: 0.3em;
+ }
+ th, td {
+    border-bottom: 1px solid #999;
+    width: 9%;
+    text-align: center;
+ }
+ caption {
+    font-weight: bold;
+    font-style: inherit;
+ }
+
+ .select {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 120px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: .2em;
+    border-radius: .2em;
+
+  }
+  
+  .buttonGreen{
+    background-color:rgb(140, 172, 140);
+    font-style: inherit;
+    background-origin: padding-box;;
+    Color: white;
+    border-radius: .2em;
+    border: none;
+    padding: .2em;
+  }
+
+  .aGreenchillon{
+    align-items: right;
+    background-color:rgb(110, 233, 120);
+    text-align: right;
+    margin: none;
+    Color: white;
+    border-radius: .2em;
+    padding: 0.2em;
+    text-align: right;
+  }
+
+  #container{
+    position: relative;
+	padding: 0.5em;
+  }
+  input{
+      border-radius: 1em;
+      padding: 0.2em;
+  }
+
+  #search{
+    float:left;
+    width:100px;
+    border-radius:0.2em;
+    
+  }
+  
+  #excel{
+    float:Right;
+    right: 0;
+    left: 200px;
+	top: 0;
+  }
+
+  /********************************/
+  .lupa {
+    float: right;
+    margin-right: -4em;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    color: black;
+    opacity: 0.5;
+}
+  
+  
