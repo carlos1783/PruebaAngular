@@ -8,6 +8,13 @@ body{
     flex-direction: column;
 }
 
+.container{
+    position: relative;
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+}
+
 h1{
     background-color:white;
 }
@@ -18,10 +25,27 @@ a{
     margin: none;
     Color: white;
     border-radius: .2em;
-    padding: 0.2em;
+    padding: 3px 30px;
     text-align: right;
     
 }
+.divinterno{
+    position: relative;
+    padding: 0.1em;
+    display: flex;
+    Color: white;
+    justify-content:center;
+    /*background-color:rgb(28, 94, 36) ;*/
+    
+}
+.a2{
+    background-color:rgb(196, 161, 109);
+    Color: white;
+    border-radius: .2em;
+    padding: .2em -.2em;
+   
+}
+
 .cabecera{
    /* text-align: right;*/
     padding: 0.5em;
@@ -53,6 +77,8 @@ table {
     border-collapse: collapse;
     margin: 0 0 1em 0;
     caption-side: top;
+    font-family: inherit;
+    
  }
  caption, td, th {
     padding: 0.3em;
@@ -61,6 +87,7 @@ table {
     border-bottom: 1px solid #999;
     width: 9%;
     text-align: center;
+    font-size: .8rem;
  }
  caption {
     font-weight: bold;
@@ -86,7 +113,47 @@ table {
     border-radius: .2em;
     border: none;
     padding: .2em;
+
   }
+  .buttonOpciones{
+    background-color:rgb(140, 172, 140);
+    font-style: inherit;
+    background-origin: padding-box;;
+    Color: white;
+    border-radius: .2em;
+    border: none 1rem ;
+    padding: 3px 30px;
+    
+
+  }
+  .buttonOpcionesAbierto{
+    background-color:rgb(226, 241, 226);
+    font-style: inherit;
+    background-origin: padding-box;;
+    Color:black;
+    border-radius: .2em;
+    border: none 1rem ;
+    padding: 3px 30px;
+    
+    
+
+  }
+
+  .buttonOpcionesInt{
+    background-color:rgb(143, 202, 143);
+    font-style: inherit;
+    background-origin: padding-box;;
+    Color:white;
+    border-radius: .2em;
+    border: none 1rem ;
+    padding: 3px 15px;
+    font-size: .6em;
+    width: 15em;
+    size: 0.8;
+
+  }
+
+  /*a.aGreenchillon:after {content: " " url("www.google.com");}*/
 
   .aGreenchillon{
     align-items: right;
@@ -104,6 +171,7 @@ table {
   input{
       border-radius: 1em;
       padding: 0.2em;
+      
   }
 
   #search{
@@ -134,8 +202,53 @@ table {
     color: black;
     opacity: 0.5;
 }
-  
+
+.carro{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 0.2em;
+}
+.car{
+
+    color: black;
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+.aCar {
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    color:white;
+}
+.flecha {
+    position: absolute;
+    top: 3px;
+    Right: 15px;
+    color:white;
+}
+
+.flechaup {
+    position: absolute;
+    top: 4px;
+    Right: 35px;
+    color:rgb(5, 1, 1);
+}
+.iconsize {
+    position: absolute;
+    top: 3px;
+    Right: 25px;
+    color:white;
+    font-size: 0.8em;
+}
+
 .flex-item:nth-child(2) {
     align-self : flex-end;
+}
+label{
+    background-color: salmon ;
+    border-radius: 0.2em;
+    font-size: 1em;
 }
   

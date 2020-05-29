@@ -16,11 +16,11 @@
       <option value="value2" selected>Value 2</option>
       <option value="value3">Value 3</option>
     </select>
-    <input type="button" value="Enviar" class="buttonGreen"> 
+    <input type="button" value="Enviar" class="buttonGreen" > 
   </div>
   <div id="cabecera2" class="cabecera2" >
       <div id="search">
-          <input type="search" placeholder="Ingrese Pedido" ><i class="fa fa-search lupa" aria-hidden="true"></i>
+          <input type="search" placeholder="Ingrese Pedido" maxlength="10" ><i class="fa fa-search lupa" aria-hidden="true"></i>
       </div>
       <div class="Excel" >
         <a  class="aGreenchillon">&nbsp;<i class="fa fa-file-excel-o" aria-hidden="true"></i>&nbsp;Excel</a>
@@ -30,7 +30,7 @@
     <table  >
       <tr>
         <th></th>
-        <th>Nro Días Usuario &nbsp;<i class="fa fa-sort" aria-hidden="true"></i></th>
+        <th>N° días / Usuario &nbsp;<i class="fa fa-sort" aria-hidden="true"></i></th>
         <th>N° Pedido &nbsp;<i class="fa fa-sort" aria-hidden="true"></i></th>
         <th>Fecha Emisión&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i>&nbsp;</th>
         <th>Fecha Entrega &nbsp;<i class="fa fa-sort" aria-hidden="true"></i></th>
@@ -39,14 +39,39 @@
         <th>Acciones</th>
       </tr>  
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td><a class="a2">3</a></td>
+        <td><p>USUARIO Random</p>CC01 - no aplica</td>
+        <td><a>7882</a></td>
+        <td>22-05-2020 10:43</td>
+        <td>&nbsp;No Ingresada</td>
+        <td>&nbsp;<div class="carro">
+                     <i class="fas fa-shopping-cart car" aria-hidden="true"></i>
+                     <p class="aCar">1</p>
+                  </div>
+        </td>
         <td><i class="fa fa-toggle-off" aria-hidden="true"></i></td>
-        <td>&nbsp;</td>
+        <td><div class="carro">
+             <input type="button" value="Opciones" class="buttonOpciones" > <i class="fa fa-sort-desc flecha" aria-hidden="true"></i>
+            </div>
+        </td>
+            
+      <tr>
+        <td><a class="a2">10</a></td>
+        <td><p>USUARIO Random</p>CC01 - no aplica</td>
+        <td><a>7881</a></td>
+        <td>17-05-2020 12:43</td>
+        <td>&nbsp;No Ingresada</td>
+        <td><div class="carro">
+          <i class="fas fa-shopping-cart car" aria-hidden="true"></i>
+          <p class="aCar">10</p>
+       </div></td>
+        <td><i class="fa fa-toggle-off" aria-hidden="true"></i></td>
+        <td><div class="container">
+              <div class=""><input type="button" value="Opciones" class="buttonOpcionesAbierto" > <i class="fa fa-caret-up flechaup" aria-hidden="true"></i></div>
+              <div class="divinterno"><input type="button" value="Devolver a Pendientes" class="buttonOpcionesInt" ><i class="fa fa-undo iconsize" aria-hidden="true" ></i></div>
+              <div class="divinterno"><input type="button" value="Ver mas" class="buttonOpcionesInt" ><i class="fa fa-search iconsize" aria-hidden="true"></i></div>
+              <div class="divinterno"><input type="button" value="Eliminar" class="buttonOpcionesInt" ><i class="fa fa-trash iconsize" aria-hidden="true"></i></div>
+            </div></td>
       </tr>  
     </table>
   </div>
