@@ -43,6 +43,7 @@ a{
     Color: white;
     border-radius: .2em;
     padding: .2em -.2em;
+    
    
 }
 
@@ -216,10 +217,25 @@ table {
     font-size: 30px;
 }
 
+.fondored{
+
+    color: red;
+    opacity: 0.8;
+    font-size: 30px;
+}
+
 .aCar {
     position: absolute;
-    top: -8px;
-    left: 15px;
+    top: -5px;
+    left: 17px;
+    color:white;
+}
+
+.pcant {
+    position: absolute;
+    top: -4px;
+    left: 12px;
+ 
     color:white;
 }
 .flecha {
